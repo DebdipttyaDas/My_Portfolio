@@ -98,7 +98,7 @@ export default function PlayIntro({ onClose }: { onClose: () => void }) {
         initial={{ scale: 1, opacity: 1 }}
         animate={phase === 'zoom' ? { scale: [1, 1.08, 2.6], opacity: [0.9, 1, 0] } : { opacity: 0.1, scale: 1.25, filter: 'blur(4px)' }}
         transition={{ duration: phase === 'zoom' ? 1.7 : 1.2, ease: [0.7, 0, 0.2, 1], times: phase === 'zoom' ? [0, 0.3, 1] : undefined }}
-        style={{ transformOrigin: '50% 30%' }}
+        style={{ transformOrigin: '50% 18%' }}
       >
         <img
           src={profile.portrait.src}

@@ -25,8 +25,8 @@ export const profile = {
   },
   resumePdf: '/assets/Debdipttya_Das_Resume.pdf',
   portrait: {
-    src: '/assets/portrait-720.webp',
-    srcSet: '/assets/portrait-420.webp 420w, /assets/portrait-720.webp 720w, /assets/portrait-1100.webp 1100w',
+    src: '/assets/portrait-720.png',
+    srcSet: '/assets/portrait-420.png 420w, /assets/portrait-720.png 720w, /assets/portrait-1100.png 1100w',
     alt: 'Portrait of Debdipttya Das',
   },
   interests: ['Machine Learning', 'Cloud Computing', 'n8n Automation', 'System Design'],

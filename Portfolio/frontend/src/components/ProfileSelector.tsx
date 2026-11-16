@@ -9,7 +9,7 @@ export function ProfileAvatar({ id, size = 'lg' }: { id: ProfileId; size?: 'sm' 
   if (id === 'debdipttya') {
     return (
       <span className={`relative block overflow-hidden ${box}`} style={{ background: 'radial-gradient(circle at 50% 30%, #7a0f24, #1a0509)' }}>
-        <img src="/assets/avatar-debdipttya.webp" alt="Debdipttya Das" className="absolute inset-0 h-full w-full object-cover object-center" />
+        <img src="/assets/avatar-debdipttya.png" alt="Debdipttya Das" className="absolute inset-0 h-full w-full object-cover object-center" />
       </span>
     );
   }

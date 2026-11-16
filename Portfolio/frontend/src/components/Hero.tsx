@@ -18,9 +18,9 @@ export default function Hero({ onPlay, onResume, profileId }: { onPlay: () => vo
   const { scrollTo } = useSmoothScroll();
 
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] });
-  const imgY = useTransform(scrollYProgress, [0, 1], ['0%', '18%']);
+  const imgY = useTransform(scrollYProgress, [0, 1], ['0%', '10%']);
   const imgScale = useTransform(scrollYProgress, [0, 1], [1, 1.12]);
-  const textY = useTransform(scrollYProgress, [0, 1], ['0%', '-30%']);
+  const textY = useTransform(scrollYProgress, [0, 1], ['0%', '-14%']);
   const fade = useTransform(scrollYProgress, [0, 0.75], [1, 0]);
   const blackout = useTransform(scrollYProgress, [0.35, 1], [0, 1]);
 
@@ -75,7 +75,7 @@ export default function Hero({ onPlay, onResume, profileId }: { onPlay: () => vo
 
       {/* portrait */}
       <motion.div
-        className="absolute inset-x-0 top-12 z-[2] flex h-[64svh] items-end justify-center sm:h-[70svh] lg:bottom-0 lg:left-auto lg:right-[3vw] lg:top-20 lg:h-auto lg:w-[54vw] xl:right-[6vw] xl:w-[48vw]"
+        className="absolute inset-x-0 top-14 z-[2] flex h-[58svh] items-end justify-center sm:h-[66svh] lg:bottom-0 lg:left-auto lg:right-[3vw] lg:top-16 lg:h-auto lg:w-[52vw] xl:right-[5vw] xl:w-[48vw]"
         style={{ y: imgY, scale: imgScale, opacity: fade }}
       >
         <motion.div
@@ -92,7 +92,7 @@ export default function Hero({ onPlay, onResume, profileId }: { onPlay: () => vo
             srcSet={profile.portrait.srcSet}
             sizes="(max-width: 1024px) 100vw, 54vw"
             alt={profile.portrait.alt}
-            className="absolute bottom-0 left-1/2 h-full w-auto max-w-none max-h-full -translate-x-1/2 object-contain object-bottom drop-shadow-[0_30px_60px_rgba(0,0,0,0.6)] [mask-image:linear-gradient(to_bottom,black_78%,transparent_100%)]"
+            className="absolute bottom-0 left-1/2 h-full w-auto max-w-none max-h-full -translate-x-1/2 object-contain object-bottom drop-shadow-[0_30px_60px_rgba(0,0,0,0.6)] [mask-image:linear-gradient(to_bottom,black_86%,transparent_100%)]"
           />
           {/* crimson rim light on the image edge */}
           <div aria-hidden className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_50%_at_80%_30%,rgba(255,61,90,0.16),transparent_70%)] mix-blend-screen" />
@@ -105,13 +105,13 @@ export default function Hero({ onPlay, onResume, profileId }: { onPlay: () => vo
       </motion.div>
 
       {/* readability gradients */}
-      <div aria-hidden className="absolute inset-x-0 top-[40svh] z-[3] h-[36svh] bg-gradient-to-b from-transparent via-ink/70 to-ink lg:hidden" />
+      <div aria-hidden className="absolute inset-x-0 top-[46svh] z-[3] h-[34svh] bg-gradient-to-b from-transparent via-ink/80 to-ink lg:hidden" />
       <div aria-hidden className="absolute inset-0 z-[3] hidden bg-[linear-gradient(90deg,var(--color-ink)_0%,rgba(7,7,10,0.7)_32%,transparent_58%)] lg:block" />
       <div aria-hidden className="absolute inset-x-0 bottom-0 z-[3] h-48 bg-gradient-to-t from-ink to-transparent" />
 
       {/* copy */}
       <motion.div
-        className="gutter relative z-[4] flex min-h-[100svh] flex-col justify-end pb-16 pt-[54svh] sm:pb-20 lg:max-w-[52vw] lg:justify-center lg:pb-0 lg:pt-24"
+        className="gutter relative z-[4] flex min-h-[100svh] flex-col justify-end pb-16 pt-[50svh] sm:pb-20 lg:max-w-[52vw] lg:justify-center lg:pb-0 lg:pt-24"
         style={{ y: textY, opacity: fade }}
         variants={container}
         initial="hidden"
