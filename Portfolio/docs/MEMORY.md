@@ -1,0 +1,25 @@
+- [FINAL DELIVERY SUMMARY](FINAL_DELIVERY_SUMMARY.md) — Complete project summary, what you have, migration path, immediate next steps
+- [PROJECT MIGRATION GUIDE](PROJECT_MIGRATION_GUIDE.md) — Complete guide to move portfolio to D:\PROJECT-WORK\Portfolio with proper structure
+- [PACKAGE COMPLETE](PACKAGE_COMPLETE.md) — Final delivery summary, what you have, three build choices, immediate action
+- [ANIMATIONS COMPLETE](ANIMATIONS_COMPLETE.md) — Complete animated portfolio overview, build paths, features included
+- [ANIMATIONS QUICK START](ANIMATIONS_QUICK_START.md) — Quick animation update guide, 6 files to update, effects explained
+- [ANIMATIONS ENHANCED](ANIMATIONS_ENHANCED.md) — Lenis, GSAP & React Bits smooth scroll animations with purple color scheme
+- [FINAL](FINAL.md) — Ultimate final status, immediate action, success in 2-3 hours
+- [COMPLETE](COMPLETE.md) — Final project completion summary, what you have, immediate next action
+- [PROJECT DELIVERED](PROJECT_DELIVERED.md) — Final delivery confirmation, what you have, next action
+- [DELIVERY VERIFIED](DELIVERY_VERIFIED.md) — Final verification, everything is ready, immediate next action
+- [EXECUTE NOW](EXECUTE_NOW.md) — Final call to action, quick next steps, what you'll build, immediate execution
+- [GO](GO.md) — Final actionable summary, quick start, what you'll build, immediate action
+- [START NOW](START_NOW.md) — Final actionable steps, timeline to success, what you'll learn, immediate next actions
+- [FINAL SUMMARY](FINAL_SUMMARY.md) — Complete delivery overview, your path forward, success criteria, action items
+- [READY TO BUILD](READY_TO_BUILD.md) — Your personalized portfolio status, what you have, next steps, final checklist
+- [DEBDIPTTYA BUILD GUIDE](DEBDIPTTYA_BUILD_GUIDE.md) — ⭐⭐⭐ START HERE - Your personalized build guide with all 19 steps, code, and commands
+- [DELIVERY COMPLETE](DELIVERY_COMPLETE.md) — Project completion summary, deliverables checklist, quick start TLDR, support guide
+- [PROJECT COMPLETE](PROJECT_COMPLETE.md) — Final summary, getting started guide, quick reference, deployment options, support resources
+- [MASTER INDEX](MASTER_INDEX.md) — Complete package index, file reference, 7-phase roadmap, API endpoints, testing commands, final checklist
+- [START HERE FIRST](START_HERE.md) — Complete overview, quick start guide, file reference, customization checklist, final verification
+- [Portfolio Setup Complete](portfolio_setup.md) — Full-stack React, Spring Boot, MySQL implementation with all backend code files
+- [Components & Deployment](components_and_deployment.md) — React components, frontend configuration, deployment checklist, testing guide, security best practices
+- [Quick Start Roadmap](quick_start_roadmap.md) — Step-by-step execution guide, file checklist, troubleshooting, common commands reference
+- [README Template](README_template.md) — Complete README.md for your project with documentation and guides for all skill levels
+- [Implementation Summary](implementation_summary.md) — Architecture diagrams, data flow examples, component hierarchy, final verification checklist
