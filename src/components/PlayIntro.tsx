@@ -98,14 +98,14 @@ export default function PlayIntro({ onClose }: { onClose: () => void }) {
         initial={{ scale: 1, opacity: 1 }}
         animate={phase === 'zoom' ? { scale: [1, 1.08, 2.6], opacity: [0.9, 1, 0] } : { opacity: 0.1, scale: 1.25, filter: 'blur(4px)' }}
         transition={{ duration: phase === 'zoom' ? 1.7 : 1.2, ease: [0.7, 0, 0.2, 1], times: phase === 'zoom' ? [0, 0.3, 1] : undefined }}
-        style={{ transformOrigin: '50% 30%' }}
+        style={{ transformOrigin: '50% 24%' }}
       >
         <img
           src={profile.portrait.src}
           srcSet={profile.portrait.srcSet}
           sizes="100vw"
           alt=""
-          className="h-[88vh] w-auto max-w-none object-contain [mask-image:linear-gradient(to_bottom,black_60%,transparent)]"
+          className="h-[88vh] w-auto max-w-full object-contain [mask-image:linear-gradient(to_bottom,black_60%,transparent)]"
         />
       </motion.div>
       <div aria-hidden className="absolute inset-0 bg-[radial-gradient(60%_60%_at_50%_45%,rgba(120,10,25,0.35),transparent_70%)]" />
